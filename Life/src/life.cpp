@@ -1,6 +1,4 @@
-// This is the CPP file you will edit and turn in.
-// Also remove these comments here and add your own.
-// TODO: remove this comment header!
+// The main file of game of life
 
 #include <cctype>
 #include <cmath>
@@ -20,9 +18,10 @@ using namespace std;
 
 Grid<char> grid_generation(Grid<char>&old_grid, int x, int y, string wrap);
 void print_grid(Grid<char> input_grid);
+int find_sum_neighbor(Grid<char> &old_grid, int r, int c, int x, int y, string wrap);
 
 int main() {
-    // TODO: Finish the program!
+    // Game Title and Introduction
     cout << "Welcome to the CS 106B Game of Life," << endl;
     cout << "a simulation of the lifecycle of a bacteria colony" << endl;
     cout << "Cells (X) live and die by the folliwung rules:" << endl;
@@ -31,6 +30,7 @@ int main() {
     cout << "- Locations with 3 neighbors will create life." << endl;
     cout << "- A cell with 4 or more neighbors dies." << endl;
 
+    // Importing file
     string file_name;
     string wrap_bool;
     file_name = getLine(" Grid input file name?"); // Alternative using cin from istream
@@ -39,14 +39,13 @@ int main() {
     ifstream txt_file;
     txt_file.open(file_name);
 
+    // Check if file exist
     if(txt_file.fail()){
         cout << " Error Reading Txt File" <<endl;
     }
-    // Check if file exist
 
     // Creating Grid
-    int x;
-    int y;
+    int x, y;
     txt_file >> x;// Number of Row
     txt_file >> y;// Number of Columns
     Grid<char> grid(x, y);
@@ -63,6 +62,7 @@ int main() {
     print_grid(grid);
     cout<< "\r" <<endl;
 
+    //
     while (input != "q"){
         input = getLine("a)nimate, t)ick, q)uit?");
         if (input == "a"){
@@ -88,7 +88,6 @@ int main() {
             cout << " Invalid Error"<< endl;
         }
     }
-
     cout << "Have a nice Life!" << endl;
     return 0;
 }
@@ -110,41 +109,13 @@ void print_grid(Grid<char> input_grid){
 }
 
 
-
+// Generating the new grid based on old grid
 Grid<char> grid_generation(Grid<char>&old_grid, int x, int y, string wrap){
 
-    int sum_neightbor;
-    sum_neightbor = 0;
     Grid<char> new_grid(x, y);
     for (int r = 0; r<x; r++){
         for (int c =0; c<y; c++){
-            for (int n=r-1;n<r+2; n++){
-                for (int k=c-1; k<c+2; k++){
-                    if (wrap =="y"){
-                        if (n==r && k==c){}
-                        else if(!old_grid.inBounds(n,k)){
-                                int n_new;
-                                int k_new;
-                                n_new = (n+x) % x;
-                                k_new = (k+y) % y;
-                                if (old_grid.get(n_new,k_new) == 'X'){
-                                    sum_neightbor++;
-                            }
-                        }
-                         else if (old_grid.inBounds(n,k) && old_grid.get(n,k) == 'X'){
-                                sum_neightbor++;
-                         }
-                    }
-
-                    else{
-                        if (n==r && k==c){}
-                        else if(old_grid.inBounds(n,k) && old_grid.get(n,k) == 'X'){
-                                sum_neightbor++;
-                    }
-                    }
-
-            }
-            }
+            int sum_neightbor = find_sum_neighbor(old_grid, r, c, x, y, wrap);
             if (sum_neightbor<2 || sum_neightbor>3){
                new_grid.set(r,c,'-');
             }
@@ -154,10 +125,41 @@ Grid<char> grid_generation(Grid<char>&old_grid, int x, int y, string wrap){
             else{
                new_grid.set(r,c,'X');
             }
-            sum_neightbor = 0;  // reset sum_neight count
         }
     }
 
     return new_grid;
+}
+
+// Finding the sum of neighbor of the given grid location
+int find_sum_neighbor(Grid<char> &old_grid, int r, int c, int x, int y, string wrap){
+    int sum_neightbor = 0;
+    for (int n=r-1;n<r+2; n++){
+        for (int k=c-1; k<c+2; k++){
+            if (wrap =="y"){
+                if (n==r && k==c){}
+                else if(!old_grid.inBounds(n,k)){
+                        int n_new;
+                        int k_new;
+                        n_new = (n+x) % x;
+                        k_new = (k+y) % y;
+                        if (old_grid.get(n_new,k_new) == 'X'){
+                            sum_neightbor++;
+                    }
+                }
+                 else if (old_grid.inBounds(n,k) && old_grid.get(n,k) == 'X'){
+                        sum_neightbor++;
+                 }
+            }
+
+            else{
+                if (n==r && k==c){}
+                else if(old_grid.inBounds(n,k) && old_grid.get(n,k) == 'X'){
+                        sum_neightbor++;
+            }
+            }
+    }
+    }
+    return sum_neightbor;
 }
 
