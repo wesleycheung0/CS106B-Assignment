@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WordLadder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WordLadder">
+				<Option output="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug/WordLadder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib"/>
+					<Add directory="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private"/>
+					<Add directory="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stacktrace"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 WordLadder"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WordLadder/fast">
+				<Option output="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug/WordLadder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib"/>
+					<Add directory="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private"/>
+					<Add directory="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stacktrace"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 WordLadder/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Wesley/Library/Mobile\ Documents/com~apple~CloudDocs/Download_12_2020/CS\ Master/CS106B\ 2017\ Spring/Assignment2/WordLadder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/base64.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/base64.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/basicgraph.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/basicgraph.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/bitstream.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/bitstream.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/compare.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/console.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/console.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/dawglexicon.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/dawglexicon.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/deque.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/direction.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/direction.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/error.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/error.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/exceptions.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/exceptions.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/filelib.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/filelib.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/foreach.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gbufferedimage.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gbufferedimage.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gevents.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gevents.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gfilechooser.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gfilechooser.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/ginteractors.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/ginteractors.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gmath.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gmath.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gobjects.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gobjects.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/goptionpane.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/goptionpane.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/graph.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/grid.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gtable.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gtable.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gtimer.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gtimer.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gtypes.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gtypes.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gwindow.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/gwindow.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/hashcode.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/hashcode.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/hashmap.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/hashset.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/lexicon.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/lexicon.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/linkedhashmap.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/linkedhashset.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/linkedlist.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/main.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/map.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/observable.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/observable.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/plainconsole.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/plainconsole.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/platform.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/platform.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/point.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/point.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/pqueue.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private/foreachpatch.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private/main.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private/randompatch.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private/tokenpatch.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private/tplatform.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/private/version.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/queue.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/random.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/random.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/regexpr.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/regexpr.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/server.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/server.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/set.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/shuffle.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/shuffle.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/simpio.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/simpio.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/sound.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/sound.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/sparsegrid.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stack.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stacktrace/call_stack.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stacktrace/call_stack_gcc.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stacktrace/call_stack_windows.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/stacktrace/stack_exception.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/startup.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/strlib.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/strlib.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/timer.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/timer.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/tokenscanner.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/tokenscanner.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/urlstream.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/urlstream.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/vector.h">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/lib/StanfordCPPLib/version.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/src/wordladder.cpp">
+			<Option target="WordLadder"/>
+		</Unit>
+		<Unit filename="/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment2/WordLadder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

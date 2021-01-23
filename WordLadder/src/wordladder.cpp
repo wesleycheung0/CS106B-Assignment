@@ -18,12 +18,9 @@ using namespace std;
 
 Lexicon getFileContent(string fileName, Lexicon & vecOfStrs);
 vector<string> neighbors_find(string &word, Lexicon dictionary);
-Vector<string> bfs(Queue<Vector<string>> word_load, Lexicon dictionary, string word_1, string word_2);
+int bfs(Queue<Vector<string>> word_load, Lexicon dictionary, string word_1, string word_2);
 
 int main() {
-    //Reading dictionary from input
-    // Should use Lexicon
-
 
     cout<<"Welcome to CS 106B Word Ladder.\n"
           "Please give me two English words, and I will change the \n"
@@ -32,16 +29,12 @@ int main() {
     string dictionary_Name;
     cout << "Dictionary file name? ";
     cin >> dictionary_Name;
-    //Storing dictionary  into vector
-//    Lexicon dictionary;
-//    dictionary = getFileContent(dictionary_Name, dictionary);
 
     Lexicon english(dictionary_Name);
     bool pass = false;
 
     string word_1;
     string word_2;
-
 
     while (true){
 
@@ -89,53 +82,8 @@ int main() {
     return 0;
 }
 
-//Lexicon getFileContent(string fileName, Lexicon & vecOfStrs)
-//{
 
-//    // Open the File
-//    ifstream in(fileName.c_str());
-
-//    // Check if object is valid
-//    if(!in)
-//    {
-//        cerr << "Cannot open the File : "<<fileName<<endl;
-//    }
-
-//    string str;
-//    // Read the next line from File untill it reaches the end.
-//    while (getline(in, str))
-//    {
-//        // Line contains string of length > 0 then save it in vector
-//        if(str.size() > 0)
-//            vecOfStrs.add(str);
-//    }
-//    //Close The File
-//    in.close();
-//    return vecOfStrs;
-//}
-
-
-
-////Function that finding all next step s
-
-//vector<string> neighbors_find(string &word, Lexicon dictionary){
-//    string alphabet = "abcdefghijklmnoqprstuvwxyz";
-//    vector <string> neighbor;
-//    for (int j=0; j<26;j++){
-//        for (int i=0; i < 4; i++){
-//            string word_temp = word;
-//            word_temp[i] = alphabet[j];
-//            if ((word_temp != word) && (dictionary.contains(word_temp))){
-//                neighbor.insert(neighbor.begin(),word_temp);
-//            }
-//        }
-//    }
-//    return neighbor;
-//}
-
-
-
-Vector<string> bfs(Queue<Vector<string>> word_load, Lexicon dictionary, string word_1, string word_2){
+int bfs(Queue<Vector<string>> word_load, Lexicon dictionary, string word_1, string word_2){
     // Roadmap is the node that you must passed to get to the destination nodes
     Vector<string> roadmap;
     Lexicon history;// History of all node that have visited
@@ -161,7 +109,7 @@ Vector<string> bfs(Queue<Vector<string>> word_load, Lexicon dictionary, string w
                         }
                         cout<< word_2<<endl;
                         cout<<"\n";
-                        return roadmap;
+                        return 0;
 
                     }else{
                         //Creating a copy of roadmap
@@ -178,8 +126,7 @@ Vector<string> bfs(Queue<Vector<string>> word_load, Lexicon dictionary, string w
         }
     }
     cout<<"No Solution\n\n";
-    Vector<string> empty;
-    return empty;
+    return 1;
 }
 
 

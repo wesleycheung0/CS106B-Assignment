@@ -1,0 +1,129 @@
+cmake_minimum_required(VERSION 3.17)
+project(Fractals)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(lib/StanfordCPPLib/collections)
+include_directories(lib/StanfordCPPLib/graphics)
+include_directories(lib/StanfordCPPLib/io)
+include_directories(lib/StanfordCPPLib/private)
+include_directories(lib/StanfordCPPLib/system)
+include_directories(lib/StanfordCPPLib/util)
+include_directories(src)
+
+add_executable(Fractals
+        lib/StanfordCPPLib/collections/basicgraph.cpp
+        lib/StanfordCPPLib/collections/basicgraph.h
+        lib/StanfordCPPLib/collections/collections.h
+        lib/StanfordCPPLib/collections/dawglexicon.cpp
+        lib/StanfordCPPLib/collections/dawglexicon.h
+        lib/StanfordCPPLib/collections/deque.h
+        lib/StanfordCPPLib/collections/graph.h
+        lib/StanfordCPPLib/collections/grid.h
+        lib/StanfordCPPLib/collections/hashcode.cpp
+        lib/StanfordCPPLib/collections/hashcode.h
+        lib/StanfordCPPLib/collections/hashmap.h
+        lib/StanfordCPPLib/collections/hashset.h
+        lib/StanfordCPPLib/collections/lexicon.cpp
+        lib/StanfordCPPLib/collections/lexicon.h
+        lib/StanfordCPPLib/collections/linkedhashmap.h
+        lib/StanfordCPPLib/collections/linkedhashset.h
+        lib/StanfordCPPLib/collections/linkedlist.h
+        lib/StanfordCPPLib/collections/map.h
+        lib/StanfordCPPLib/collections/pqueue.h
+        lib/StanfordCPPLib/collections/priorityqueue.h
+        lib/StanfordCPPLib/collections/queue.h
+        lib/StanfordCPPLib/collections/set.h
+        lib/StanfordCPPLib/collections/shuffle.cpp
+        lib/StanfordCPPLib/collections/shuffle.h
+        lib/StanfordCPPLib/collections/sparsegrid.h
+        lib/StanfordCPPLib/collections/stack.h
+        lib/StanfordCPPLib/collections/stl.h
+        lib/StanfordCPPLib/collections/vector.h
+        lib/StanfordCPPLib/graphics/gbufferedimage.cpp
+        lib/StanfordCPPLib/graphics/gbufferedimage.h
+        lib/StanfordCPPLib/graphics/gevents.cpp
+        lib/StanfordCPPLib/graphics/gevents.h
+        lib/StanfordCPPLib/graphics/gfilechooser.cpp
+        lib/StanfordCPPLib/graphics/gfilechooser.h
+        lib/StanfordCPPLib/graphics/ginteractors.cpp
+        lib/StanfordCPPLib/graphics/ginteractors.h
+        lib/StanfordCPPLib/graphics/gobjects.cpp
+        lib/StanfordCPPLib/graphics/gobjects.h
+        lib/StanfordCPPLib/graphics/goptionpane.cpp
+        lib/StanfordCPPLib/graphics/goptionpane.h
+        lib/StanfordCPPLib/graphics/gtable.cpp
+        lib/StanfordCPPLib/graphics/gtable.h
+        lib/StanfordCPPLib/graphics/gtextarea.cpp
+        lib/StanfordCPPLib/graphics/gtextarea.h
+        lib/StanfordCPPLib/graphics/gtimer.cpp
+        lib/StanfordCPPLib/graphics/gtimer.h
+        lib/StanfordCPPLib/graphics/gtypes.cpp
+        lib/StanfordCPPLib/graphics/gtypes.h
+        lib/StanfordCPPLib/graphics/gwindow.cpp
+        lib/StanfordCPPLib/graphics/gwindow.h
+        lib/StanfordCPPLib/io/base64.cpp
+        lib/StanfordCPPLib/io/base64.h
+        lib/StanfordCPPLib/io/bitstream.cpp
+        lib/StanfordCPPLib/io/bitstream.h
+        lib/StanfordCPPLib/io/console.cpp
+        lib/StanfordCPPLib/io/console.h
+        lib/StanfordCPPLib/io/filelib.cpp
+        lib/StanfordCPPLib/io/filelib.h
+        lib/StanfordCPPLib/io/server.cpp
+        lib/StanfordCPPLib/io/server.h
+        lib/StanfordCPPLib/io/simpio.cpp
+        lib/StanfordCPPLib/io/simpio.h
+        lib/StanfordCPPLib/io/tokenscanner.cpp
+        lib/StanfordCPPLib/io/tokenscanner.h
+        lib/StanfordCPPLib/io/urlstream.cpp
+        lib/StanfordCPPLib/io/urlstream.h
+        lib/StanfordCPPLib/private/consolestreambuf.h
+        lib/StanfordCPPLib/private/echoinputstreambuf.h
+        lib/StanfordCPPLib/private/foreachpatch.h
+        lib/StanfordCPPLib/private/forwardingstreambuf.h
+        lib/StanfordCPPLib/private/init.h
+        lib/StanfordCPPLib/private/limitoutputstreambuf.h
+        lib/StanfordCPPLib/private/platform.cpp
+        lib/StanfordCPPLib/private/platform.h
+        lib/StanfordCPPLib/private/randompatch.h
+        lib/StanfordCPPLib/private/static.h
+        lib/StanfordCPPLib/private/tokenpatch.h
+        lib/StanfordCPPLib/private/tplatform.h
+        lib/StanfordCPPLib/private/version.cpp
+        lib/StanfordCPPLib/private/version.h
+        lib/StanfordCPPLib/system/call_stack.h
+        lib/StanfordCPPLib/system/call_stack_gcc.cpp
+        lib/StanfordCPPLib/system/call_stack_windows.cpp
+        lib/StanfordCPPLib/system/error.cpp
+        lib/StanfordCPPLib/system/error.h
+        lib/StanfordCPPLib/system/exceptions.cpp
+        lib/StanfordCPPLib/system/exceptions.h
+        lib/StanfordCPPLib/system/stack_exception.h
+        lib/StanfordCPPLib/util/direction.cpp
+        lib/StanfordCPPLib/util/direction.h
+        lib/StanfordCPPLib/util/foreach.h
+        lib/StanfordCPPLib/util/gmath.cpp
+        lib/StanfordCPPLib/util/gmath.h
+        lib/StanfordCPPLib/util/note.cpp
+        lib/StanfordCPPLib/util/note.h
+        lib/StanfordCPPLib/util/observable.cpp
+        lib/StanfordCPPLib/util/observable.h
+        lib/StanfordCPPLib/util/point.cpp
+        lib/StanfordCPPLib/util/point.h
+        lib/StanfordCPPLib/util/random.cpp
+        lib/StanfordCPPLib/util/random.h
+        lib/StanfordCPPLib/util/regexpr.cpp
+        lib/StanfordCPPLib/util/regexpr.h
+        lib/StanfordCPPLib/util/sound.cpp
+        lib/StanfordCPPLib/util/sound.h
+        lib/StanfordCPPLib/util/strlib.cpp
+        lib/StanfordCPPLib/util/strlib.h
+        lib/StanfordCPPLib/util/timer.cpp
+        lib/StanfordCPPLib/util/timer.h
+        src/complex.cpp
+        src/complex.h
+        src/fractalgui.cpp
+        src/fractalgui.h
+        src/fractals.cpp
+        src/fractals.h)

@@ -1,0 +1,1704 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/StanfordCPPLib/collections/collections.h
+iostream
+-
+sstream
+-
+type_traits
+-
+error.h
+../lib/StanfordCPPLib/collections/error.h
+gmath.h
+../lib/StanfordCPPLib/collections/gmath.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+random.h
+../lib/StanfordCPPLib/collections/random.h
+
+../lib/StanfordCPPLib/collections/deque.h
+deque
+-
+initializer_list
+-
+collections.h
+../lib/StanfordCPPLib/collections/collections.h
+error.h
+../lib/StanfordCPPLib/collections/error.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+
+../lib/StanfordCPPLib/collections/grid.h
+initializer_list
+-
+iostream
+-
+string
+-
+sstream
+-
+functional
+-
+collections.h
+../lib/StanfordCPPLib/collections/collections.h
+error.h
+../lib/StanfordCPPLib/collections/error.h
+gridlocation.h
+../lib/StanfordCPPLib/collections/gridlocation.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+random.h
+../lib/StanfordCPPLib/collections/random.h
+strlib.h
+../lib/StanfordCPPLib/collections/strlib.h
+vector.h
+../lib/StanfordCPPLib/collections/vector.h
+
+../lib/StanfordCPPLib/collections/gridlocation.h
+iostream
+-
+iterator
+-
+string
+-
+error.h
+../lib/StanfordCPPLib/collections/error.h
+
+../lib/StanfordCPPLib/collections/hashcode.h
+string
+-
+utility
+-
+
+../lib/StanfordCPPLib/collections/map.h
+cstdlib
+-
+initializer_list
+-
+utility
+-
+type_traits
+-
+map
+-
+functional
+-
+collections.h
+../lib/StanfordCPPLib/collections/collections.h
+error.h
+../lib/StanfordCPPLib/collections/error.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+stack.h
+../lib/StanfordCPPLib/collections/stack.h
+vector.h
+../lib/StanfordCPPLib/collections/vector.h
+
+../lib/StanfordCPPLib/collections/queue.h
+initializer_list
+-
+collections.h
+../lib/StanfordCPPLib/collections/collections.h
+deque.h
+../lib/StanfordCPPLib/collections/deque.h
+error.h
+../lib/StanfordCPPLib/collections/error.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+vector.h
+../lib/StanfordCPPLib/collections/vector.h
+
+../lib/StanfordCPPLib/collections/set.h
+initializer_list
+-
+iostream
+-
+set
+-
+functional
+-
+type_traits
+-
+collections.h
+../lib/StanfordCPPLib/collections/collections.h
+map.h
+../lib/StanfordCPPLib/collections/map.h
+
+../lib/StanfordCPPLib/collections/stack.h
+initializer_list
+-
+error.h
+../lib/StanfordCPPLib/collections/error.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+vector.h
+../lib/StanfordCPPLib/collections/vector.h
+
+../lib/StanfordCPPLib/collections/vector.h
+algorithm
+-
+initializer_list
+-
+iostream
+-
+iterator
+-
+sstream
+-
+string
+-
+vector
+-
+deque
+-
+type_traits
+-
+functional
+-
+collections.h
+../lib/StanfordCPPLib/collections/collections.h
+error.h
+../lib/StanfordCPPLib/collections/error.h
+hashcode.h
+../lib/StanfordCPPLib/collections/hashcode.h
+random.h
+../lib/StanfordCPPLib/collections/random.h
+
+../lib/StanfordCPPLib/graphics/gbrowserpane.h
+string
+-
+QTextBrowser
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gbutton.h
+string
+-
+QToolButton
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gcanvas.h
+string
+-
+QtEvents
+-
+QPainter
+-
+gdrawingsurface.h
+../lib/StanfordCPPLib/graphics/gdrawingsurface.h
+gevent.h
+../lib/StanfordCPPLib/graphics/gevent.h
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+../lib/StanfordCPPLib/graphics/gobjects.h
+
+../lib/StanfordCPPLib/graphics/gcheckbox.h
+string
+-
+QCheckBox
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gchooser.h
+initializer_list
+-
+string
+-
+QComboBox
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+vector.h
+../lib/StanfordCPPLib/graphics/vector.h
+
+../lib/StanfordCPPLib/graphics/gcolor.h
+string
+-
+QColor
+-
+map.h
+../lib/StanfordCPPLib/graphics/map.h
+
+../lib/StanfordCPPLib/graphics/gcontainer.h
+QBoxLayout
+-
+QLayout
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+vector.h
+../lib/StanfordCPPLib/graphics/vector.h
+
+../lib/StanfordCPPLib/graphics/gdrawingsurface.h
+string
+-
+QFont
+-
+QWidget
+-
+grid.h
+../lib/StanfordCPPLib/graphics/grid.h
+gobjects.h
+../lib/StanfordCPPLib/graphics/gobjects.h
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+
+../lib/StanfordCPPLib/graphics/gevent.h
+functional
+-
+iostream
+-
+string
+-
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+
+../lib/StanfordCPPLib/graphics/geventqueue.h
+string
+-
+QObject
+-
+QReadWriteLock
+-
+gevent.h
+../lib/StanfordCPPLib/graphics/gevent.h
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+queue.h
+../lib/StanfordCPPLib/graphics/queue.h
+
+../lib/StanfordCPPLib/graphics/gfilechooser.h
+string
+-
+QWidget
+-
+gwindow.h
+../lib/StanfordCPPLib/graphics/gwindow.h
+
+../lib/StanfordCPPLib/graphics/gfont.h
+string
+-
+QFont
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+../lib/StanfordCPPLib/graphics/gobjects.h
+
+../lib/StanfordCPPLib/graphics/ginteractor.h
+string
+-
+QReadWriteLock
+-
+QWidget
+-
+gevent.h
+../lib/StanfordCPPLib/graphics/gevent.h
+gobservable.h
+../lib/StanfordCPPLib/graphics/gobservable.h
+
+../lib/StanfordCPPLib/graphics/ginteractors.h
+gbrowserpane.h
+../lib/StanfordCPPLib/graphics/gbrowserpane.h
+gbutton.h
+../lib/StanfordCPPLib/graphics/gbutton.h
+gcanvas.h
+../lib/StanfordCPPLib/graphics/gcanvas.h
+gcheckbox.h
+../lib/StanfordCPPLib/graphics/gcheckbox.h
+gchooser.h
+../lib/StanfordCPPLib/graphics/gchooser.h
+gcolor.h
+../lib/StanfordCPPLib/graphics/gcolor.h
+gcontainer.h
+../lib/StanfordCPPLib/graphics/gcontainer.h
+gfilechooser.h
+../lib/StanfordCPPLib/graphics/gfilechooser.h
+gfont.h
+../lib/StanfordCPPLib/graphics/gfont.h
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+glabel.h
+../lib/StanfordCPPLib/graphics/glabel.h
+goptionpane.h
+../lib/StanfordCPPLib/graphics/goptionpane.h
+gradiobutton.h
+../lib/StanfordCPPLib/graphics/gradiobutton.h
+gscrollbar.h
+../lib/StanfordCPPLib/graphics/gscrollbar.h
+gscrollpane.h
+../lib/StanfordCPPLib/graphics/gscrollpane.h
+gslider.h
+../lib/StanfordCPPLib/graphics/gslider.h
+gspacer.h
+../lib/StanfordCPPLib/graphics/gspacer.h
+gtable.h
+../lib/StanfordCPPLib/graphics/gtable.h
+gtextarea.h
+../lib/StanfordCPPLib/graphics/gtextarea.h
+gtextfield.h
+../lib/StanfordCPPLib/graphics/gtextfield.h
+gwindow.h
+../lib/StanfordCPPLib/graphics/gwindow.h
+
+../lib/StanfordCPPLib/graphics/glabel.h
+string
+-
+QLabel
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+../lib/StanfordCPPLib/graphics/gobjects.h
+
+../lib/StanfordCPPLib/graphics/gobjects.h
+initializer_list
+-
+iostream
+-
+QFont
+-
+QImage
+-
+QPainter
+-
+QPen
+-
+QWidget
+-
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+vector.h
+../lib/StanfordCPPLib/graphics/vector.h
+
+../lib/StanfordCPPLib/graphics/gobservable.h
+functional
+-
+string
+-
+QtEvents
+-
+gevent.h
+../lib/StanfordCPPLib/graphics/gevent.h
+map.h
+../lib/StanfordCPPLib/graphics/map.h
+
+../lib/StanfordCPPLib/graphics/goptionpane.h
+string
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+vector.h
+../lib/StanfordCPPLib/graphics/vector.h
+
+../lib/StanfordCPPLib/graphics/gradiobutton.h
+string
+-
+QButtonGroup
+-
+QRadioButton
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+map.h
+../lib/StanfordCPPLib/graphics/map.h
+
+../lib/StanfordCPPLib/graphics/gscrollbar.h
+string
+-
+QScrollBar
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gscrollpane.h
+string
+-
+QScrollArea
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gslider.h
+string
+-
+QSlider
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gspacer.h
+string
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gtable.h
+string
+-
+QAbstractItemModel
+-
+QBrush
+-
+QFont
+-
+QItemSelection
+-
+QStyledItemDelegate
+-
+QTableWidget
+-
+grid.h
+../lib/StanfordCPPLib/graphics/grid.h
+map.h
+../lib/StanfordCPPLib/graphics/map.h
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+../lib/StanfordCPPLib/graphics/gobjects.h
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+
+../lib/StanfordCPPLib/graphics/gtextarea.h
+string
+-
+QTextEdit
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+
+../lib/StanfordCPPLib/graphics/gtextfield.h
+initializer_list
+-
+string
+-
+QLineEdit
+-
+QSpinBox
+-
+QDoubleSpinBox
+-
+QString
+-
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+vector.h
+../lib/StanfordCPPLib/graphics/vector.h
+
+../lib/StanfordCPPLib/graphics/gthread.h
+init.h
+../lib/StanfordCPPLib/graphics/init.h
+QThread
+-
+atomic
+-
+thread
+-
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+map.h
+../lib/StanfordCPPLib/graphics/map.h
+
+../lib/StanfordCPPLib/graphics/gtypes.h
+functional
+-
+iostream
+-
+string
+-
+
+../lib/StanfordCPPLib/graphics/gwindow.h
+string
+-
+QCloseEvent
+-
+QEvent
+-
+QLayout
+-
+QMainWindow
+-
+QRect
+-
+gcanvas.h
+../lib/StanfordCPPLib/graphics/gcanvas.h
+gcontainer.h
+../lib/StanfordCPPLib/graphics/gcontainer.h
+gdrawingsurface.h
+../lib/StanfordCPPLib/graphics/gdrawingsurface.h
+geventqueue.h
+../lib/StanfordCPPLib/graphics/geventqueue.h
+ginteractor.h
+../lib/StanfordCPPLib/graphics/ginteractor.h
+grid.h
+../lib/StanfordCPPLib/graphics/grid.h
+gtypes.h
+../lib/StanfordCPPLib/graphics/gtypes.h
+map.h
+../lib/StanfordCPPLib/graphics/map.h
+point.h
+../lib/StanfordCPPLib/graphics/point.h
+set.h
+../lib/StanfordCPPLib/graphics/set.h
+
+../lib/StanfordCPPLib/io/filelib.h
+iostream
+-
+fstream
+-
+string
+-
+vector.h
+../lib/StanfordCPPLib/io/vector.h
+
+../lib/StanfordCPPLib/io/tokenscanner.h
+iostream
+-
+string
+-
+
+../lib/StanfordCPPLib/private/headless.h
+
+../lib/StanfordCPPLib/private/init.h
+string
+-
+headless.h
+../lib/StanfordCPPLib/private/headless.h
+
+../lib/StanfordCPPLib/private/static.h
+
+../lib/StanfordCPPLib/system/error.h
+csignal
+-
+exception
+-
+iostream
+-
+string
+-
+
+../lib/StanfordCPPLib/util/diff.h
+string
+-
+
+../lib/StanfordCPPLib/util/gmath.h
+cmath
+-
+limits
+-
+gtypes.h
+../lib/StanfordCPPLib/util/gtypes.h
+point.h
+../lib/StanfordCPPLib/util/point.h
+
+../lib/StanfordCPPLib/util/observable.h
+set
+-
+error.h
+../lib/StanfordCPPLib/util/error.h
+
+../lib/StanfordCPPLib/util/point.h
+string
+-
+
+../lib/StanfordCPPLib/util/random.h
+string
+-
+
+../lib/StanfordCPPLib/util/require.h
+string
+-
+
+../lib/StanfordCPPLib/util/strlib.h
+iostream
+-
+sstream
+-
+string
+-
+vector.h
+../lib/StanfordCPPLib/util/vector.h
+
+../lib/StanfordCPPLib/util/timer.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/basicgraph.cpp
+basicgraph.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/basicgraph.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/basicgraph.h
+initializer_list
+-
+sstream
+-
+string
+-
+utility
+-
+gmath.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/gmath.h
+graph.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/graph.h
+grid.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/grid.h
+hashset.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashset.h
+linkedlist.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/linkedlist.h
+observable.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/observable.h
+set.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/set.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+iostream
+-
+sstream
+-
+type_traits
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+gmath.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/gmath.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+random.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/random.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/graph.h
+string
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/map.h
+set.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/set.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/strlib.h
+tokenscanner.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/tokenscanner.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/grid.h
+initializer_list
+-
+iostream
+-
+string
+-
+sstream
+-
+functional
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+gridlocation.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/gridlocation.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+random.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/random.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/strlib.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/gridlocation.h
+iostream
+-
+iterator
+-
+string
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+string
+-
+utility
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashmap.h
+cstdlib
+-
+initializer_list
+-
+string
+-
+utility
+-
+unordered_map
+-
+functional
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashset.h
+initializer_list
+-
+iostream
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+hashmap.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashmap.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/linkedlist.h
+algorithm
+-
+initializer_list
+-
+iostream
+-
+iterator
+-
+list
+-
+sstream
+-
+string
+-
+functional
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+random.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/random.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/strlib.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/map.h
+cstdlib
+-
+initializer_list
+-
+utility
+-
+type_traits
+-
+map
+-
+functional
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+stack.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/stack.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/set.h
+initializer_list
+-
+iostream
+-
+set
+-
+functional
+-
+type_traits
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/map.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/stack.h
+initializer_list
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/vector.h
+algorithm
+-
+initializer_list
+-
+iostream
+-
+iterator
+-
+sstream
+-
+string
+-
+vector
+-
+deque
+-
+type_traits
+-
+functional
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/error.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/hashcode.h
+random.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/collections/random.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gbutton.h
+string
+-
+QToolButton
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcanvas.h
+string
+-
+QtEvents
+-
+QPainter
+-
+gdrawingsurface.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdrawingsurface.h
+gevent.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gevent.h
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcheckbox.h
+string
+-
+QCheckBox
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gclipboard.h
+QKeyEvent
+-
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcolor.h
+string
+-
+QColor
+-
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/map.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcontainer.h
+QBoxLayout
+-
+QLayout
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdiffgui.h
+string
+-
+QWidget
+-
+QSplitter
+-
+diff.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/diff.h
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+gtextarea.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtextarea.h
+gwindow.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gwindow.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdiffimage.h
+string
+-
+QWidget
+-
+QSplitter
+-
+gbutton.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gbutton.h
+gcanvas.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcanvas.h
+gcheckbox.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcheckbox.h
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+glabel.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/glabel.h
+gslider.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gslider.h
+gwindow.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gwindow.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdrawingsurface.h
+string
+-
+QFont
+-
+QWidget
+-
+grid.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/grid.h
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gevent.h
+functional
+-
+iostream
+-
+string
+-
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/geventqueue.h
+string
+-
+QObject
+-
+QReadWriteLock
+-
+gevent.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gevent.h
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+queue.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/queue.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gfont.h
+string
+-
+QFont
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+string
+-
+QReadWriteLock
+-
+QWidget
+-
+gevent.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gevent.h
+gobservable.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobservable.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/glabel.h
+string
+-
+QLabel
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/glayout.h
+QLayout
+-
+QRect
+-
+QWidget
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.cpp
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+algorithm
+-
+cmath
+-
+iomanip
+-
+iostream
+-
+QBrush
+-
+QFont
+-
+QPointF
+-
+QPolygon
+-
+QVector
+-
+sstream
+-
+string
+-
+filelib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/filelib.h
+gmath.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gmath.h
+gcolor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcolor.h
+gfont.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gfont.h
+gthread.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gthread.h
+require.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/require.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/strlib.h
+static.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/static.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+initializer_list
+-
+iostream
+-
+QFont
+-
+QImage
+-
+QPainter
+-
+QPen
+-
+QWidget
+-
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobservable.h
+functional
+-
+string
+-
+QtEvents
+-
+gevent.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gevent.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/map.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gslider.h
+string
+-
+QSlider
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtable.cpp
+gtable.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtable.h
+cstring
+-
+iostream
+-
+iomanip
+-
+QBrush
+-
+QColor
+-
+QHeaderView
+-
+QLineEdit
+-
+sstream
+-
+gclipboard.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gclipboard.h
+gcolor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcolor.h
+gevent.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gevent.h
+gfont.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gfont.h
+gthread.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gthread.h
+require.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/require.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtable.h
+string
+-
+QAbstractItemModel
+-
+QBrush
+-
+QFont
+-
+QItemSelection
+-
+QStyledItemDelegate
+-
+QTableWidget
+-
+grid.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/grid.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/map.h
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gobjects.h
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtextarea.cpp
+gtextarea.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtextarea.h
+QScrollBar
+-
+QTextCursor
+-
+gcolor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcolor.h
+gfont.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gfont.h
+gthread.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gthread.h
+gwindow.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gwindow.h
+require.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/require.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtextarea.h
+string
+-
+QTextEdit
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtextfield.h
+initializer_list
+-
+string
+-
+QLineEdit
+-
+QSpinBox
+-
+QDoubleSpinBox
+-
+QString
+-
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gthread.h
+init.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/init.h
+QThread
+-
+atomic
+-
+thread
+-
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/map.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.cpp
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+cmath
+-
+sstream
+-
+string
+-
+collections.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/collections.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/error.h
+gmath.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gmath.h
+hashcode.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/hashcode.h
+point.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/point.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/strlib.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+functional
+-
+iostream
+-
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gwindow.cpp
+gwindow.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gwindow.h
+QMenu
+-
+QMenuBar
+-
+QScreen
+-
+QSizePolicy
+-
+QStatusBar
+-
+QThread
+-
+QTimer
+-
+QToolBar
+-
+filelib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/filelib.h
+gcolor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcolor.h
+gdiffgui.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdiffgui.h
+gdiffimage.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdiffimage.h
+glabel.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/glabel.h
+glayout.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/glayout.h
+gtextfield.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtextfield.h
+gthread.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gthread.h
+qtgui.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/qtgui.h
+require.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/require.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/strlib.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gwindow.h
+string
+-
+QCloseEvent
+-
+QEvent
+-
+QLayout
+-
+QMainWindow
+-
+QRect
+-
+gcanvas.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcanvas.h
+gcontainer.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gcontainer.h
+gdrawingsurface.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gdrawingsurface.h
+geventqueue.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/geventqueue.h
+ginteractor.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/ginteractor.h
+grid.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/grid.h
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/map.h
+point.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/point.h
+set.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/set.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/qtgui.h
+string
+-
+QApplication
+-
+QObject
+-
+gthread.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gthread.h
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/graphics/gtypes.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/filelib.h
+iostream
+-
+fstream
+-
+string
+-
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/server.cpp
+server.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/server.h
+filelib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/filelib.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/map.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/strlib.h
+static.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/static.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/server.h
+string
+-
+gevent.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/gevent.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/simpio.cpp
+simpio.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/simpio.h
+cctype
+-
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/error.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/strlib.h
+static.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/static.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/simpio.h
+iostream
+-
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/tokenscanner.cpp
+tokenscanner.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/tokenscanner.h
+cctype
+-
+iostream
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/error.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/strlib.h
+stack.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/stack.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/io/tokenscanner.h
+iostream
+-
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/call_stack.h
+string
+-
+sstream
+-
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/call_stack_gcc.cpp
+stdio.h
+-
+cxxabi.h
+-
+windows.h
+-
+tchar.h
+-
+stdio.h
+-
+strsafe.h
+-
+execinfo.h
+-
+dlfcn.h
+-
+cstring
+-
+mach-o/dyld.h
+-
+iomanip
+-
+iostream
+-
+sstream
+-
+stdlib.h
+-
+call_stack.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/call_stack.h
+exceptions.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/exceptions.h
+filelib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/filelib.h
+gthread.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/gthread.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/strlib.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/vector.h
+static.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/static.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/call_stack_windows.cpp
+call_stack.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/call_stack.h
+windows.h
+-
+tchar.h
+-
+assert.h
+-
+errno.h
+-
+fstream
+-
+iomanip
+-
+iostream
+-
+signal.h
+-
+sstream
+-
+stdlib.h
+-
+stdbool.h
+-
+stdint.h
+-
+string
+-
+windows.h
+-
+tchar.h
+-
+dbghelp.h
+-
+imagehlp.h
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/error.h
+exceptions.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/exceptions.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/strlib.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/vector.h
+cxxabi.h
+-
+static.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/static.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/error.h
+csignal
+-
+exception
+-
+iostream
+-
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/exceptions.cpp
+exceptions.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/exceptions.h
+csignal
+-
+cstdlib
+-
+iomanip
+-
+iostream
+-
+string
+-
+call_stack.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/call_stack.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/error.h
+filelib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/filelib.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/strlib.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/vector.h
+static.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/static.h
+windows.h
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/system/exceptions.h
+iostream
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/direction.cpp
+direction.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/direction.h
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/error.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/strlib.h
+tokenscanner.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/tokenscanner.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/direction.h
+iostream
+-
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/gmath.cpp
+gmath.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/gmath.h
+cmath
+-
+error.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/error.h
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/gtypes.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/gmath.h
+cmath
+-
+limits
+-
+gtypes.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/gtypes.h
+point.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/point.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/point.h
+string
+-
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/strlib.h
+iostream
+-
+sstream
+-
+string
+-
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/lib/StanfordCPPLib/util/vector.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/complex.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractalgui.cpp
+fractalgui.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractalgui.h
+cstdlib
+-
+fstream
+-
+iomanip
+-
+iostream
+-
+filelib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/filelib.h
+gfilechooser.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/gfilechooser.h
+grid.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/grid.h
+random.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/random.h
+strlib.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/strlib.h
+timer.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/timer.h
+fractals.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractals.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractalgui.h
+string
+-
+gevents.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/gevents.h
+ginteractors.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/ginteractors.h
+gobjects.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/gobjects.h
+gwindow.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/gwindow.h
+map.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/map.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractals.cpp
+fractals.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractals.h
+cmath
+-
+complex.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/complex.h
+
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/fractals.h
+iostream
+-
+string
+-
+gbufferedimage.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/gbufferedimage.h
+gwindow.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/gwindow.h
+vector.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/vector.h
+complex.h
+/Users/Wesley/Library/Mobile Documents/com~apple~CloudDocs/Download_12_2020/CS Master/CS106B 2017 Spring/Assignment 3/Fractals/src/complex.h
+

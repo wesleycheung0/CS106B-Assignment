@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spl1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ngrams/lib/spl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
